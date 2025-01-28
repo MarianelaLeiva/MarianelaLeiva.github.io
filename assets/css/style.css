@@ -1,0 +1,139 @@
+:root {
+    --colorceleste: #81c1cb;
+    --coloramarillo: #f3de09;
+    --colorrosado:	#ee88af;
+    --colorcafe: #3d3a39;
+    --colorblanco: #f8f3ed;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h2, h4{
+    text-align: center;
+}
+
+nav{
+    box-shadow: 0px 21px 31px -12px rgba(0,0,0,0.41);
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.imagen_principal{
+    background-image: url(../img/imagen_principal.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 700px;
+}
+
+.imagen_principal > h1{
+    text-align: right;
+    padding-top: 20rem;
+    padding-right: 4rem;
+    font-size: 70px;
+}
+
+/*Seccion sobre mi*/
+.sobre-mi h2{
+    color: var(--colorceleste);
+}
+
+.sobre-mi{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.sobre-mi > p{
+    align-items: center;
+    text-align: justify;
+    width: 90%;
+}
+
+/*Seccion Educacion*/
+.seccion-educacion h2{
+    color: var(--colorceleste);
+}
+
+.seccion-educacion{
+    align-items: center;
+}
+
+.cards{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.card-educacion{
+    width: 50%;
+    height: 100px;
+    background-color: #fff;
+    border-radius: 20px;
+}
+
+/*Seccion Experiencia*/
+.seccion-experiencia  h2{
+    padding-bottom: 1rem;
+    color: var(--colorceleste);
+}
+
+h4 {
+    color: var(--colorcafe);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 19px;
+}
+
+.experiencia{
+    border: 1px solid  rgb(210, 204, 204) ;
+    border-radius: 20px;
+}
+
+ul{
+    justify-content: center;
+    text-align: center;
+    list-style: none;
+    padding-right: 2rem;
+}
+
+li{
+    font-size: 15px;
+}
+
+
+ /*Seccion proyectos*/
+.seccion-proyectos{
+    margin-top: 3rem;
+    box-shadow: 0px 0px 35px 0px rgba(0,0,0,0.52);
+    background-color: var(--colorceleste);
+    border-radius: 20px;
+    width: 90%;
+}
+
+.seccion-proyectos .proyectos  h2{
+    padding-top: 1rem;
+    color: var(--colorblanco);
+}
+
+.card-proyecto{
+    height: 15rem;
+}
+
+.card-proyecto img{
+    height: 10rem;
+}
+
+hr{
+    background-color: var(--colorrosado);
+    color: var(--colorrosado);
+    width: 80%;
+    height: 2px;
+}
