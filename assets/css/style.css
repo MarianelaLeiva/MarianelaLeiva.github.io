@@ -137,3 +137,11 @@ hr{
     width: 80%;
     height: 2px;
 }
+
+
+footer{
+    text-align: center;
+    font-size: 10px;
+    color: var(--colorcafe);
+    padding-top: 2rem;
+}
